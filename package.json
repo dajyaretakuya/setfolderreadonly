@@ -1,6 +1,6 @@
 {
   "name": "setfolderreadonly",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "test.js",
   "dependencies": {
     "bindings": "~1.2.1",
@@ -15,10 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/CZion272/test.git"
+    "url": "https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "test": "node test.js"
+    "install": "prebuild --install",
+    "rebuild": "prebuild --compile",
+    "prebuild": "prebuild --all --strip --verbose"
   },
   "author": "",
   "license": "ISC",
