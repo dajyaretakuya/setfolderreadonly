@@ -10,6 +10,7 @@
     "node-abi": "^2.5.0",
     "node-pre-gyp": "^0.11.0",
     "prebuild": "^8.1.2",
+    "prebuild-ci": "^2.2.3",
     "prebuild-install": "^5.2.1",
     "set": "^1.1.1",
     "stream": "0.0.2"
