@@ -20,7 +20,7 @@
     "url": "git+https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
+    "install": "prebuild-install  -d || node-gyp rebuild",
     "rebuild": "prebuild --compile",
     "prebuild": "prebuild --all --strip --verbose"
   },
