@@ -17,22 +17,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CZion272/setfolderreadonly.git"
+    "url": "https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "install": "prebuild-install  --download -T 8840e62e55e7ddee915a21f4701e36a4031d207a  || node-gyp rebuild",
+    "install": "prebuild-install || node-gyp rebuild",
     "rebuild": "prebuild --compile",
     "prebuild": "prebuild --all --strip --verbose"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "gypfile": true,
-  "devDependencies": {
-    "electron": "^1.7.5"
-  },
   "bugs": {
     "url": "https://github.com/CZion272/setfolderreadonly/issues"
   },
-  "homepage": "https://github.com/CZion272/setfolderreadonly#readme",
-  "description": ""
+  "homepage": "https://github.com/CZion272/setfolderreadonly#readme"
 }
