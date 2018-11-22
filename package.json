@@ -19,7 +19,7 @@
     "url": "https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "install": "prebuild-install --download || node-gyp rebuild",
+    "install": "prebuild-install -d https://github.com/CZion272/setfolderreadonly/releases/download/v1.2.0/setfolderreadonly-v1.2.0-electron-v54-win32-x64.tar.gz || node-gyp rebuild",
     "rebuild": "prebuild --compile",
     "prebuild": "prebuild --all --strip --verbose"
   },
