@@ -21,7 +21,7 @@
     "url": "https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
+    "install": "node-pre-gyp install",
 	"test": "node test.js"
   },
   "license": "MIT",
@@ -29,7 +29,7 @@
   "binary": {
     "module_name": "setfolderreadonly",
     "module_path": "./build/Release/",
-    "host": "https://github.com/CZion272/setfolderreadonly/releases/download/",
+    "host": "https://api.github.com/CZion272/setfolderreadonly/releases/download/",
     "remote_path": "{version}"
   }
 }
