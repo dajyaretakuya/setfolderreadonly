@@ -21,7 +21,8 @@
     "url": "https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build"
+    "install": "node-pre-gyp install --fallback-to-build",
+	"test": "node test.js"
   },
   "license": "MIT",
   "gypfile": true,
