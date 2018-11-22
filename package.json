@@ -19,14 +19,14 @@
     "url": "https://github.com/CZion272/setfolderreadonly.git"
   },
   "scripts": {
-    "install": "prebuild-install || node-gyp rebuild",
-    "rebuild": "prebuild --compile",
-    "prebuild": "prebuild --all --strip --verbose"
+    "install": "node-pre-gyp install --fallback-to-build"
   },
   "license": "MIT",
   "gypfile": true,
-  "bugs": {
-    "url": "https://github.com/CZion272/setfolderreadonly/issues"
-  },
-  "homepage": "https://github.com/CZion272/setfolderreadonly#readme"
+  "binary": {
+        "module_name": "setfolderreadonly",
+        "module_path": "./build/Release/",
+		"host": "https://api.github.com/CZion272/setfolderreadonly/releases/download/",
+		"remote_path": "{version}"
+  }
 }
