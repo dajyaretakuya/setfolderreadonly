@@ -8,11 +8,13 @@
     "prebuild-install": "^5.2.1"
   },
   "devDependencies": {
-    "stream": "0.0.2",
     "buffer": "^5.2.1",
     "config": "^2.0.1",
+    "node-pre-gyp": "^0.12.0",
+    "node-pre-gyp-github": "^1.4.2",
     "prebuild": "^8.1.2",
-    "prebuild-ci": "^2.2.3"
+    "prebuild-ci": "^2.2.3",
+    "stream": "0.0.2"
   },
   "repository": {
     "type": "git",
@@ -24,9 +26,9 @@
   "license": "MIT",
   "gypfile": true,
   "binary": {
-        "module_name": "setfolderreadonly",
-        "module_path": "./build/Release/",
-		"host": "https://api.github.com/CZion272/setfolderreadonly/releases/download/",
-		"remote_path": "{version}"
+    "module_name": "setfolderreadonly",
+    "module_path": "./build/Release/",
+    "host": "https://api.github.com/CZion272/setfolderreadonly/releases/download/",
+    "remote_path": "{version}"
   }
 }
