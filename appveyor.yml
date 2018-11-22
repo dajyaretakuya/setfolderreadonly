@@ -1,0 +1,5 @@
+environment:
+  my_variable:
+    secure: 5rwn+VTD1THuEI/XNFcl75QeElkvoe5sKoRnZV0s6LVnqoonvtS+du/WCcqHIBTO
+  my_variable:
+    secure: 
