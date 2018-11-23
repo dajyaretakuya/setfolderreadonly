@@ -1,3 +1,5 @@
 build
 node_modules
 prebuilds
+build-tmp-napi-v1
+build-tmp-napi-v3
