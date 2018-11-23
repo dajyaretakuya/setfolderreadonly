@@ -6,4 +6,4 @@ npm install https://github.com/CZion272/setfolderreadonly to download prebuild n
 
 var addon = require('setfolderreadonly');
 
-addon.setFolderReadOnly(location);
+addon.setFolderReadOnly({location});
