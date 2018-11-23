@@ -22,7 +22,7 @@
   },
   "scripts": {
     "install": "node-pre-gyp install",
-	"test": "node test.js"
+    "test": "node test.js"
   },
   "license": "MIT",
   "gypfile": true,
